@@ -1,6 +1,6 @@
 # Trabajo Practico Obligatorio: Test Driven Development (TDD)
 
-**Fecha de entrega: Lunes 29 de Abril**
+**Fecha de entrega: Martes 08 de Junio 2020**
 
 ## Requerimientos
 
@@ -15,30 +15,35 @@ _A strike is when the player knocks down all 10 pins on his first try.  The bonu
 
 _In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.  However no more than three balls can be rolled in tenth frame._
 
-_Además, el juego tiene que soportar **hasta 2 jugadores** con sus nombres y decir quien ganó._
 
 ## Instrucciones
 
-1. Grupos de **2** integrantes.
-2. Crear el repositorio (o bien forkear el presente repo) correspondiente en GitHub y agregar a Franco(Franco94) y a Martin (mgarriga) como colaboradores.
-3. Realizar el commit inicial con:
+1. Grupos de hasta **3** integrantes.
+2. Crear el repositorio (o bien forkear el presente repo) correspondiente en GitHub y agregar a Martin (mgarriga) como colaborador.
+3. Realizar el commit inicial con el test de juego en 0 (en el lenguaje de su elección):
+
 ```
 test_gutter_game(game):
   assert game.get_score() == 0
 ```
+
 4. Implementar los requerimientos utilizando la metodología TDD.
 5. Escribir el readme.MD el cual será el informe del trabajo.
 
 ## Criterios de evaluación
 
-* El uso de Gitflow o [github flow](https://guides.github.com/introduction/flow/index.html) (una version simplificada de GitFlow) es obligatorio y será evaluado. La historia de commits nos servirá para **evaluar** si hicieron el trabajo siguiendo la metodología TDD.
+* El uso de Gitflow o [github flow](https://guides.github.com/introduction/flow/index.html) (una version simplificada de GitFlow) es recomendado. La historia de commits nos servirá para **evaluar** si hicieron el trabajo siguiendo la metodología TDD.
 
 * Hacer branchs por cada feature (aproximadamente una por test case) y hacer commits + Pull Requests que serán cross-checkeados por su compañero. Cada Pull Request comprende los tests además de las funcionalidad.
 
 * Se recomienda, aunque no es obligatorio, usar [pair programming](http://www.extremeprogramming.org/rules/pair.html) (2 programadores con una pc). En ese caso, deben alternar ambos cada rol (piloto/copiloto) y commitear con sus respectivos usuarios a los fines evaluativos.
 
-* Pueden utilizar el lenguaje que prefieran. Si usan javascript recomendamos [mocha](https://mochajs.org/) como herramienta de testing y [nyc/istambul](https://github.com/istanbuljs/nyc)
-para analizar el coverage de los tests.
+* Pueden utilizar el lenguaje que prefieran.
+	* Si usan javascript recomendamos [mocha](https://mochajs.org/) como herramienta de testing y [nyc/istambul](https://github.com/istanbuljs/nyc)
+para analizar el coverage de los tests. 
+	* Si usan python recomendamos [pytest] (https://docs.pytest.org/en/latest/) para los tests y [Coverage.py](https://coverage.readthedocs.io/en/coverage-5.1/) para analizar el % de coverage de los tests.
+	* Si usan Java recomendamos [JUnit](https://junit.org/junit5/) para los tests y algun plugin de Eclipse/IntelliJ/VScode para el coverage.
+	
 
 * El informe del proyecto será el Readme.MD del repositorio, el cual debe contener:
   - Instrucciones para correr el proyecto.
