@@ -1,4 +1,4 @@
-# Trabajo Practico Obligatorio: Test Driven Development (TDD)
+# Trabajo Practico Obligatorio 2: Test Driven Development (TDD)
 
 **Fecha de entrega: Martes 30 de Junio 2020**
 
